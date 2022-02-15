@@ -25,7 +25,7 @@ npm install
 ```
 ---
 ## Author
-**(Abass Makinde)** - <abass@blusalt.io>
+Taiwo Ademola
 
 ---
 
@@ -60,13 +60,13 @@ Sample subscription call - ```localhost:8080/v1/user/signup```
 
 ```json
 {
-	"email": "abass@blusalt.io",
-	"password": "blusalt",
-	"cPassword": "blusalt",
-	"firstname": "newspaper",
-    "lastname": "stand",
-    "phoneNumber": "08066441262",
-    "dob": "2019-12-04"
+	"email": "taiwoademola25@gmail.com",
+	"password": "coolplace",
+	"cPassword": "coolplace",
+	"firstname": "coolplace",
+    "lastname": "news",
+    "phoneNumber": "08084839131",
+    "dob": "20212-12-05"
 }
 ```
 
@@ -77,7 +77,7 @@ Sample subscription call - ```localhost:8080/v1/user/signup```
     "error": false,
     "code": 201,
     "data": {
-        "email": "abass@blusalt.io",
+        "email": "taiwoademola25@gmail.com",
         "role": "admin"
     },
     "message": "successfully created a new admin"
@@ -94,21 +94,8 @@ sample call - ```localhost:8080/v1/user/signin```
 
 ```json
 {
-	"email": "abass@blusalt.io",
-	"password": "blusalt"
+	"email" :"taiwoademola25@gmail.com",
+	"password": "eagle"
 }
 ```
 
-***sample response***
-
-```json
-{
-    "error": false,
-    "code": 200,
-    "data": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFiYXNzYWRlbWFrQGdtYWlsLmNvbSIsImlkIjoiNWVjN2IzY2ZmMzI2MTA0NzYxZjIzOWVmIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNTkwMTQ2MDIyLCJleHAiOjE1OTAzMTg4MjJ9.z8xh-kpybemNz9-HViefV3tfmpV7uQ7f0U1V0eguSkA",
-    "message": "admin successfully logged in"
-}
-```
-
-### More Info
-For more description of this API, please contact the author of this code with the detail provided above
